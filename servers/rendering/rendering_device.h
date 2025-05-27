@@ -58,7 +58,7 @@ class RDPipelineSpecializationConstant;
 class RDShaderDescription;
 
 class RenderingDevice : public RenderingDeviceCommons {
-	GDCLASS(RenderingDevice, Object)
+	GDCLASS(RenderingDevice, RenderingDeviceCommons)
 
 	_THREAD_SAFE_CLASS_
 
